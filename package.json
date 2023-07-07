@@ -2,20 +2,20 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://AlexandraCherepania.github.io/travel",
+  "homepage": "https://AlexandraCherepania.github.io/Traveling-tour",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /travel/"
+    "build": "parcel build src/*.html --public-url /Traveling-tour/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexandraCherepania/travel.git"
+    "url": "git+https://github.com/AlexandraCherepania/Traveling-tour.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlexandraCherepania/travel/issues"
+    "url": "https://github.com/AlexandraCherepania/Traveling-tour/issues"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
