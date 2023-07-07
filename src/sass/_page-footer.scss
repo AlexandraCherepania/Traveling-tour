@@ -1,0 +1,199 @@
+.page-footer {
+    padding-top: 10px;
+    padding-bottom: 3px;
+    background-color: #FFF5F6;  
+    @media screen and (min-width: 1200px){
+        padding-top: 50px;
+    }
+}
+.page-footer .container{
+    @media screen and (min-width: 768px){
+        padding-right: 16px;
+        padding-left: 16px;
+        display: flex;
+        justify-content: center;
+    }
+}
+.footer-nav{
+    border-bottom: 1px solid #E1E1E1;    
+}
+.footer-list {
+    display: block;
+    font-family: rubik;
+
+    @media screen and (min-width: 768px) {
+        position: relative;
+        margin-bottom: 60px;
+        }
+}
+
+.footer-list__home {
+    font-family: var(--dominant-font);
+    font-style: inherit;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    // text-transform: uppercase;
+    color: var(--accent-secondary-color);
+
+    width: 232px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+   
+    @media screen and (min-width: 768px) {
+        font-size: 26px;
+        line-height: 30px;
+        letter-spacing: 0.04em;
+        width: 340px;
+    
+    }
+        @media screen and (min-width: 1200px){
+        flex-wrap: nowrap;
+        font-size: 30px;
+        line-height: 34px;
+        width: 472px;
+        }
+}
+.footer-list__passion{
+    font-family: var(--dominant-font);
+    font-style: inherit;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    letter-spacing: 0.04em;
+    // text-transform: uppercase;
+    
+    color: var(--accent-color);
+    width: 200px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left:50px;
+    
+    @media screen and (min-width: 768px) {
+        font-size: 48px;
+        line-height: 55px;
+        letter-spacing: 0.06em;
+        width: 340px;}
+
+        @media screen and (min-width: 1200px) {
+            flex-wrap: nowrap;
+            font-size: 38px;
+            line-height: 66px;
+            letter-spacing: 0.06em;
+            width:100%;
+        }
+}
+
+.footer-list-contact {
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-social{
+    padding-bottom: 40px;
+}
+.footer-social__list{
+    display: flex;
+    justify-content: center;
+    // margin-top: 40px;
+    margin-bottom: 20px;
+    height: 32px;
+    gap: 28px;
+    list-style: none;
+
+    @media screen and (min-width: 768px){
+        // margin-bottom: 60px;  
+    }
+           @media screen and (min-width: 1200px) {
+               margin-top:0;
+           }
+}
+.footer-social__icon{
+    fill: #FFF5F6;
+    
+}
+.footer-social__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+
+    border-radius: 50%;
+    background:#55b89a;
+    fill: #443c3e;
+
+    
+
+    &:hover,
+    &:focus {
+        background: #443c3e;
+        color:#443c3e;
+        fill: #443c3e;
+
+    }
+}
+
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: var(--dominant-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 186%;
+    
+    &__text{
+       color:var(--secondary-color); 
+    }
+    &__contact{
+        color: var(--accent-color);
+        text-decoration: none;
+    }
+    @media screen and (min-width: 768px){
+        font-size: 14px;
+    }
+        @media screen and (min-width: 1200px){
+        font-size: 16px;   
+        letter-spacing: 0.02em;    
+        }
+
+}
+.footer-text{
+    padding-top: 16px;
+    max-width: 150px;
+    margin: auto;
+    text-align: center;
+
+    @media screen and (min-width: 768px){
+        max-width: 100%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+.footer-text__ice{
+    font-family: var(--dominant-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 152%;
+    
+    color: #55b89a;   
+    @media screen and (min-width: 768px){
+    line-height: 186%;}
+    
+        @media screen and (min-width: 1200px){
+        line-height: 186%;
+        }
+}
+
+
+.viber-style {
+    fill: #000000;
+}

@@ -1,0 +1,73 @@
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+
+
+
+body {
+    // color: var(--main-color);
+    
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    color: var(--fon-second);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    text-align: center
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+
+}
+
+.link {
+    text-decoration-line: none;
+    
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+
+}

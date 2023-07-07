@@ -1,0 +1,401 @@
+.section__products {
+  background-color: var(--background-color-white);
+}
+
+.products__text {
+  display: flex;
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  line-height: 1.17;
+  font-weight: 400;
+  text-transform: uppercase;
+  justify-content: center;
+
+  color: #5c5050;
+
+  @media screen and (min-width: 768px) {
+    font-size: 26px;
+    line-height: 1.15;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+}
+
+.products__title {
+  font-family: var(--secondary-font);
+  font-size: 25px;
+  line-height: 1.15;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 148px;
+
+  color:#5c5050;
+
+  @media screen and (min-width: 768px) {
+    font-size: 35px;
+    margin-top: 18px;
+    margin-bottom: 158px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 35px;
+    line-height: 1.14;
+    margin-top: 0px;
+    // margin-bottom: 281px;
+  }
+}
+
+.products__list {
+  display: flex;
+  flex-wrap: wrap;
+  // justify-content: center;
+  gap: 140px;
+
+  @media screen and (min-width: 768px) {
+    gap: 16px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    gap: 32px;
+  }
+}
+
+.products__items {
+  position: relative;
+  display: block;
+  justify-content: center;
+  width: 280px;
+  // height: 489px;
+  padding-top: 160px;
+  padding-bottom: 40px;
+  border-radius: 24px;
+
+  @media screen and (min-width: 768px) {
+    width: 224px;
+    // height: 473px;
+    padding-top: 118px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 368px;
+    // height: 535px;
+    padding-top: 165px;
+    padding-bottom: 60px;
+  }
+}
+
+.products__items:nth-child(1)::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 280px;
+  height: 280px;
+  transform: translateY(-50%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-image: url(../images/products/optimiz/ice-cream-min.png);
+
+  @media screen and (min-width: 768px) {
+    width: 224px;
+    height: 224px;
+    transform: translateY(-138px);
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 368px;
+    height: 394px;
+    transform: translateY(-261px);
+  }
+
+  // ===================== Респонсивные фоновые изображения =====================
+  // ============================================================================
+
+  // ======= Для ретина экранов мобильная версия =======
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../images/products/optimiz/ice-cream@2x-min.png);
+  }
+
+  // ======= Для ретина экранов планшет версия =======
+  @media screen and (min-width: 768px) {
+    background-image: url(../images/products/optimiz/ice-cream-md-min.png);
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/products/optimiz/ice-cream-md@2x-min.png);
+    }
+  }
+
+  // ======= Для ретина экранов ПК версия =======
+  @media screen and (min-width: 1200px) {
+    background-image: url(../images/products/optimiz/ice-cream-lg-min.png);
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/products/optimiz/ice-cream-lg@2x-min.png);
+    }
+  }
+}
+
+.products__items:nth-child(2)::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 280px;
+  height: 280px;
+  transform: translateY(-50%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-image: url(../images/products/optimiz/coffee-min.png);
+
+  @media screen and (min-width: 768px) {
+    width: 224px;
+    height: 224px;
+    transform: translateY(-138px);
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 368px;
+    height: 394px;
+    transform: translateY(-261px);
+  }
+
+  // ===================== Респонсивные фоновые изображения =====================
+  // ============================================================================
+
+  // ======= Для ретина экранов мобильная версия =======
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../images/products/optimiz/coffee@2x-min.png);
+  }
+
+  // ======= Для ретина экранов планшет версия =======
+  @media screen and (min-width: 768px) {
+    background-image: url(../images/products/optimiz/coffee-md-min.png);
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/products/optimiz/coffee-md@2x-min.png);
+    }
+  }
+
+  // ======= Для ретина экранов ПК версия =======
+  @media screen and (min-width: 1200px) {
+    background-image: url(../images/products/optimiz/coffee-lg-min.png);
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/products/optimiz/coffee-lg@2x-min.png);
+    }
+  }
+}
+
+.products__items:nth-child(3)::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 280px;
+  height: 280px;
+  transform: translateY(-50%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  background-image: url(../images/products/optimiz/choco-min.png);
+
+  @media screen and (min-width: 768px) {
+    width: 224px;
+    height: 224px;
+    transform: translateY(-138px);
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 368px;
+    height: 394px;
+    transform: translateY(-261px);
+  }
+
+  // ===================== Респонсивные фоновые изображения =====================
+  // ============================================================================
+
+  // ======= Для ретина экранов мобильная версия =======
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../images/products/optimiz/choco@2x-min.png);
+  }
+
+  // ======= Для ретина экранов планшет версия =======
+  @media screen and (min-width: 768px) {
+    background-image: url(../images/products/optimiz/choko-md-min.png);
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/products/optimiz/choko-md@2x-min.png);
+    }
+  }
+
+  // ======= Для ретина экранов ПК версия =======
+  @media screen and (min-width: 1200px) {
+    background-image: url(../images/products/optimiz/choco-lg-min.png);
+
+    @media (min-device-pixel-ratio: 2),
+      (-webkit-min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: url(../images/products/optimiz/choco-lg@2x-min.png);
+    }
+  }
+}
+
+.products__item--rectangle-pink {
+  background-color: var(--item-pink-color);
+}
+
+.products__item--rectangle-coffee {
+  background-color: var(--item-coffee-color);
+}
+
+.products__item--rectangle-green {
+  background-color: var(--item-green-color);
+}
+
+.products__item-title {
+  position: relative;
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  line-height: 1.15;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+
+  margin-block-start: 0;
+  margin-block-end: 0;
+  // margin-top: 160px;s
+
+  color: var(--dominant-color);
+
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    display: block;
+    left: 127px;
+    bottom: -32px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--dominant-color);
+    box-shadow: 10px 0 0 var(--dominant-color), 20px 0 0 var(--dominant-color);
+    transform: translateY(100%);
+
+    @media screen and (min-width: 768px) {
+      left: 99px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      left: 171px;
+    }
+  }
+}
+
+.products__item-text {
+  font-family: var(--dominant-font);
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 700;
+
+  width: 200px;
+  height: auto;
+  text-align: center;
+  margin-top: 70px;
+  margin-right: auto;
+  margin-left: auto;
+
+  color: var(--dominant-color);
+
+  @media screen and (min-width: 768px) {
+    line-height: 1.8;
+    width: 160px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+    line-height: 1.8;
+    width: 245px;
+  }
+}
+
+.products__button {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  margin-left: 120px;
+  border: none;
+
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+
+  background-color: var(--background-color-white);
+
+  @media screen and (min-width: 768px) {
+    margin-left: 92px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 60px;
+    margin-left: 165px;
+  }
+}
+
+.products__icon {
+  display: inline-block;
+  justify-content: center;
+  width: 12px;
+  height: 11px;
+  transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  scale: 1;
+  fill: var(--accent-color);
+}
+
+.products__button:hover .products__icon {
+  scale: 1.5;
+}
