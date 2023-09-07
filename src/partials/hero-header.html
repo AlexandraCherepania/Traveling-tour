@@ -1,16 +1,14 @@
-
-
 <header class="page-header container" id="header">
-  
+
   <a class="logo__link link-decor" href="#">
-    <img class='logo_style' src="./images/traveling/logo.png" alt="traveling" width="200" height="180" />  
+    <img class='logo_style' src="./images/traveling/logo.png" alt="traveling" width="200" height="180" />
   </a>
 
 
 
   <!-- navigation -->
 
-  
+
 
   <nav class="site-nav">
     <ul class="site-nav__list list">
@@ -31,7 +29,7 @@
       </li>
     </ul>
   </nav>
-    
+
 
   <select class="change-land land-style">
     <option value="ua">UA</option>
@@ -39,20 +37,10 @@
   </select>
   <!-- modal butoon -->
 
-  <button
-    class="button__main button--visible open-hero-modal"
-    type="button"
-    id="open_hero-modal"
-    data-hero-open
-  >
+  <button class="button__main button--visible open-hero-modal" type="button" id="open_hero-modal" data-hero-open>
     Buy now
     <svg class="button__icon">
-      <use
-        class="button__arrow"
-        href="./images/icons.svg#icon-arrow-btn"
-        width="7"
-        height="10"
-      ></use>
+      <use class="button__arrow" href="./images/icons.svg#icon-arrow-btn" width="7" height="10"></use>
     </svg>
   </button>
 </header>
@@ -61,30 +49,10 @@
   <!-- Hero -->
 
   <!-- menu button -->
-  <button
-    class="menu__button"
-    type="button"
-    data-menu-button
-    aria-expanded="false"
-  >
-    <svg
-      class="menu__pic"
-      aria-label="Переключатель мобільного меню"
-      width="44"
-      height="44"
-    >
-      <use
-        class="menu__icon menu__burger"
-        href="./images/symbol-defs2.svg#icon-menu"
-        width="40"
-        height="24"
-      ></use>
-      <use
-        class="menu__icon menu__close"
-        href="./images/symbol-defs2.svg#icon-cross"
-        width="16"
-        height="16"
-      ></use>
+  <button class="menu__button" type="button" data-menu-button aria-expanded="false">
+    <svg class="menu__pic" aria-label="Переключатель мобільного меню" width="44" height="44">
+      <use class="menu__icon menu__burger" href="./images/symbol-defs2.svg#icon-menu" width="40" height="24"></use>
+      <use class="menu__icon menu__close" href="./images/symbol-defs2.svg#icon-cross" width="16" height="16"></use>
     </svg>
   </button>
 
@@ -94,12 +62,7 @@
     <button class="button__main button--mobile" type="button">
       Buy now
       <svg class="button__icon">
-        <use
-          class="button__arrow"
-          href="./images/icons.svg#icon-arrow-btn"
-          width="7"
-          height="10"
-        ></use>
+        <use class="button__arrow" href="./images/icons.svg#icon-arrow-btn" width="7" height="10"></use>
       </svg>
     </button>
 
@@ -125,41 +88,41 @@
     </ul>
   </div>
 
- 
+
 
   <div class="hero__title--main">
-      <h1 class="hero__title animate__animated animate__flip lng-title">
-             NEVER STOP <br />
-             EXPLORIND THE <br />
-             WORLD<br />
-      </h1>
-      
-      <div class="galary-el">  
- 
-   <div>
-        <img class="galary_style animate__animated "  src="./images/traveling/photo1.jpg" alt="traveling1"  />
+    <h1 class="hero__title animate__animated animate__flip lng-title">
+      NEVER STOP <br />
+      EXPLORIND THE <br />
+      WORLD<br />
+    </h1>
+
+    <div class="galary-el">
+
+      <div>
+        <img class="galary_style animate__animated " src="./images/traveling/photo1.jpg" alt="traveling1" />
       </div>
       <div>
-        <img  class="galary_style animate__animated " src="./images/traveling/photo2.jpg" alt="traveling1" />
+        <img class="galary_style animate__animated " src="./images/traveling/photo11.jpg" alt="traveling1" />
       </div>
       <div>
-        <img class="galary_style animate__animated " src="./images/traveling/photo3.jpg" alt="traveling1" />
-      </div> 
-     
+        <img class="galary_style animate__animated " src="./images/traveling/photo2.jpg" alt="traveling1" />
       </div>
 
+    </div>
 
 
-<!-- modal window -->
 
-<div class="hero-modal" id="hero-modal" data-hero-modal>
-  <div class="hero-modal__container">
-    <div class="hero-modal__body" id="hero-modal__body">
-      <p class="hero-modal__title">Відправити запит</p>
+    <!-- modal window -->
 
-      <form class="form-header">
-        <ul class="list checkbox-flex">
-          <!-- <li>
+    <div class="hero-modal" id="hero-modal" data-hero-modal>
+      <div class="hero-modal__container">
+        <div class="hero-modal__body" id="hero-modal__body">
+          <p class="hero-modal__title">Відправити запит</p>
+
+          <form class="form-header">
+            <ul class="list checkbox-flex">
+              <!-- <li>
             <input class="checkbox" type="checkbox" /> <span>Ice Cream</span>
           </li>
           <li>
@@ -168,52 +131,26 @@
           <li>
             <input class="checkbox" type="checkbox" /> <span>Milkshake</span>
           </li> -->
-        </ul>
-        <input
-          class="hero-modal__input"
-          type="text"
-          placeholder="Name"
-          required
-        />
-        <input
-          class="hero-modal__input"
-          type="tel"
-          placeholder="Tel"
-          required
-        />
-        <input
-          class="hero-modal__input"
-          type="email"
-          placeholder="E-mail"
-          
-        />
-        <input 
-        class="hero-modal__input--el"
-        type="text"
-        placeholder="Введіть параметри туру"
-        />
+            </ul>
+            <input class="hero-modal__input" type="text" placeholder="Name" required />
+            <input class="hero-modal__input" type="tel" placeholder="Tel" required />
+            <input class="hero-modal__input" type="email" placeholder="E-mail" />
+            <input class="hero-modal__input--el" type="text" placeholder="Введіть параметри туру" />
 
-        <div class="hero-modal__buttons">
-          <button
-            class="button__main button--inverse hero-modal__button"
-            type="submit"
-          >
-            Відправити
-          </button>
-          <button
-            class="button__main hero-modal__button"
-            type="submit"
-            data-hero-close
-          >
-            Закрити
-          </button>
-        </div>
-        <!-- <button type="button" class="hero-modal__close" id="hero-modal__close">
+            <div class="hero-modal__buttons">
+              <button class="button__main button--inverse hero-modal__button" type="submit">
+                Відправити
+              </button>
+              <button class="button__main hero-modal__button" type="submit" data-hero-close>
+                Закрити
+              </button>
+            </div>
+            <!-- <button type="button" class="hero-modal__close" id="hero-modal__close">
           <svg class="hero-modal__close_icon" width="15" height="15">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button> -->
-      </form>
+          </form>
+        </div>
+      </div>
     </div>
-  </div>
-</div>

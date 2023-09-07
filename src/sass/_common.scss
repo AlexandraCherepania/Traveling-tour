@@ -29,7 +29,7 @@
 
   // ==========  Button hover  ==========
   --button-hover-color: #ecebeb;
-  
+
   // ==========  Border color  ==========
   --border-color: #e1e1e1;
   --menu--border-color: #E18298;
@@ -46,10 +46,10 @@ body {
   font-size: 14px;
   font-weight: 500;
 
-  
-  
-  
- 
+
+
+
+
 
 
 
@@ -85,7 +85,7 @@ img {
   width: 100%;
   padding: 0px 20px;
   margin: 0 auto;
-  
+
 
   @media screen and (min-width: 320px) {
     width: 320px;
@@ -100,7 +100,7 @@ img {
     width: 1200px;
     padding: 0px 16px;
   }
-  
+
 }
 
 
@@ -126,9 +126,9 @@ img {
   line-height: 1.15;
   text-align: center;
   text-transform: uppercase;
-  
 
-  color: #55b89a;
+
+  // color: #55b89a;
 
   @media screen and (min-width: 768px) {
     font-size: 48px;
@@ -142,7 +142,9 @@ img {
   }
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
   margin: 0;
   padding: 0;
 }
@@ -186,4 +188,3 @@ button {
     background-color: var(--accent-color);
   }
 }
-
