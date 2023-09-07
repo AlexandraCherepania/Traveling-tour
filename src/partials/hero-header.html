@@ -19,7 +19,7 @@
         <a class="nav__link lng-hot" href="#products">Гарячі тури</a>
       </li>
       <li class="site-nav__item">
-        <a href="#advantages" target="_blank" class="nav__link lng-reserv">Як забронювати?</a>
+        <a href="#advantages" class="nav__link lng-reserv">Як забронювати?</a>
       </li>
       <li class="site-nav__item">
         <a class="nav__link lng-product" href="#products">Конструктор</a>
@@ -37,7 +37,7 @@
   </select>
   <!-- modal butoon -->
 
-  <button class="button__main button--visible open-hero-modal" type="button" id="open_hero-modal" data-hero-open>
+  <button class="lng-btn button__main button--visible open-hero-modal lng-btn" type="button" id="open_hero-modal" data-hero-open>
     Buy now
     <svg class="button__icon">
       <use class="button__arrow" href="./images/icons.svg#icon-arrow-btn" width="7" height="10"></use>
@@ -59,7 +59,7 @@
   <!-- mobile menu -->
 
   <div class="mobile-menu" data-menu>
-    <button class="button__main button--mobile" type="button">
+    <button class="button__main button--mobile lng-btn" type="button">
       Buy now
       <svg class="button__icon">
         <use class="button__arrow" href="./images/icons.svg#icon-arrow-btn" width="7" height="10"></use>
@@ -70,20 +70,21 @@
 
     <ul class="mobile-nav list">
       <li class="mobile__item">
-        <a class="mobile__link current" href="#header">Home</a>
+        <a class="mobile__link current lng-home" href="#header">Головна</a>
       </li>
       <li class="mobile__item">
-        <a class="mobile__link" href="#advantages">HOT TOURS</a>
+        <a class="mobile__link lng-hot" href="#products">Гарячі тури</a>
       </li>
       <li class="mobile__item">
-        <a href="#advantages" target="_blank" class="mobile__link">How it's made?
+        <a href="#advantages"  class="mobile__link lng-reserv">Як забронювати?
         </a>
+        <!-- target="_blank" -->
       </li>
       <li class="mobile__item">
-        <a class="mobile__link" href="#products">Our products</a>
+        <a class="mobile__link lng-product" href="#products">Конструктор</a>
       </li>
       <li class="mobile__item">
-        <a class="mobile__link" href="#contacts">Contacts</a>
+        <a class="mobile__link lng-contact" href="#contacts">Контакти</a>
       </li>
     </ul>
   </div>
@@ -91,11 +92,12 @@
 
 
   <div class="hero__title--main">
+    
     <h1 class="hero__title animate__animated animate__flip lng-title">
-      NEVER STOP <br />
-      EXPLORIND THE <br />
-      WORLD<br />
+      <!-- NEVER STOP EXPLORIND THE WORLD -->
+      Ніколи не зупиняйся досліджувати світ
     </h1>
+    
 
     <div class="galary-el">
 
