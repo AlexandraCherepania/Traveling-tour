@@ -400,34 +400,99 @@
 //   scale: 1.5;
 // }
 
-.section__products {
-  background-color: var(--background-color-white);
-}
+// .section__products {
+//   background-color: var(--background-color-white);
+// }
 
 
 .products__title {
-    font-family: var(--dominant-font);
-    font-size: 25px;
-    line-height: 1.15;
-    font-weight: 400;
-    text-transform: uppercase;
+  font-family: var(--dominant-font);
+  font-size: 25px;
+  line-height: 1.15;
+  font-weight: 400;
+  text-transform: uppercase;
 
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 148px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 50px;
 
-    color:#5c5050;
+  color: #5c5050;
 
-    @media screen and (min-width: 768px) {
-      font-size: 35px;
-      margin-top: 18px;
-      margin-bottom: 158px;
-    }
-
-    @media screen and (min-width: 1200px) {
-      font-size: 35px;
-      line-height: 1.14;
-      margin-top: 0px;
-     
-    }
+  @media screen and (min-width: 768px) {
+    font-size: 35px;
+    margin-top: 18px;
+    margin-bottom: 10px;
   }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 35px;
+    line-height: 1.14;
+    margin-top: 30px;
+
+  }
+}
+
+
+.it_title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.second-title {
+  color: #5c5050;
+}
+
+.conrt-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+
+  margin-left: 700px;
+  margin-bottom: 11px;
+}
+
+.unit {
+  width: 100%;
+
+}
+
+.section {
+  margin-left: 60px;
+  margin-right: 60px;
+
+}
+
+.constructor__title {
+  font-family: var(--dominant-font);
+  font-size: 25px;
+  line-height: 1.15;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+
+  color: #5c5050;
+
+  @media screen and (min-width: 768px) {
+    font-size: 35px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 35px;
+    line-height: 1.14;
+    margin-top: 200px;
+
+  }
+}
+
+// .ittour {
+//   // margin-left: 200px;
+
+// }
+
+.hot_tour {
+  background: none;
+}

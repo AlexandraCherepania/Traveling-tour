@@ -1,5 +1,5 @@
 const landArr = {
-    
+
     'home': {
         'ua': 'Головна',
         'en': 'Home',
@@ -28,14 +28,24 @@ const landArr = {
         'ua': 'ніколи не зупиняйся досліджувати світ',
         'en': 'NEVER STOP EXPLORIND THE WORLD'
     },
-  
+
     'hots': {
         'ua': 'Гарячі тури',
         'en': 'Hot Tours',
     },
-     'social': {
+    'social': {
         'ua': 'Ми в соціальних мережах',
         'en': 'We are on social networks',
     },
+
+    'constructor': {
+        'ua': 'Конструктор турів',
+        'en': 'Constructor of tours',
+    },
+
+    'constructortitle': {
+        'ua': 'Створи свою найкращу подорож',
+        'en': 'Create your best trip',
+    }
 
 }
