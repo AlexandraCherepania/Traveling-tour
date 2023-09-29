@@ -6,7 +6,7 @@ select.addEventListener ('change', changeUrlLadguage);
 
 function changeUrlLadguage() {
     let lang = select.value;
-    location.href = window.location.pathname + '#'+lang;
+    location.href = window.location.pathname + '#'+ lang;
     location.reload(); 
 
 }
@@ -21,16 +21,15 @@ function changeLanguage() {
     } 
     select.value = hash;
 
-    // document.querySelector('.lng-home').innerHTML = landArr['home'][hash];
-    // document.querySelector('.lng-hot').innerHTML = landArr['hot'][hash];
-    // document.querySelector('.lng-reserv').innerHTML = landArr['reserv'][hash];
-    // document.querySelector('.lng-product').innerHTML = landArr['product'][hash];
-    // document.querySelector('.lng-contact').innerHTML = landArr['contact'][hash];
-    // document.querySelector('.fon-title').innerHTML = landArr['fone'][hash];
-    // document.querySelector('.pg-hot').innerHTML = landArr['hots'][hash];
 
     for (let key in landArr) {
-        document.querySelector(".lng-" + key).innerHTML = landArr[key][hash];
+        let elem = document.querySelector(".lng-" + key);
+        if (elem) {
+           elem.innerHTML = landArr[key][hash]; 
+        }
+        // document.querySelector(".lng-" + key).innerHTML = landArr[key][hash];
+        
+
     }
 }
 

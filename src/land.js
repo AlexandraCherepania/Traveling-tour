@@ -24,8 +24,8 @@ const landArr = {
         'ua': 'Контакти',
         'en': 'Contacts',
     },
-    'fone': {
-        'ua': 'ніколи не зупиняйся досліджувати світ',
+    'title': {
+        'ua': 'Ніколи не зупиняйся досліджувати світ',
         'en': 'NEVER STOP EXPLORIND THE WORLD'
     },
 
@@ -35,17 +35,16 @@ const landArr = {
     },
     'social': {
         'ua': 'Ми в соціальних мережах',
-        'en': 'We are on social networks',
+        'en': 'We are in social networks',
+    },
+    'ourcontact': {
+        'ua': 'Наші контакти',
+        'en': 'Our contacts',
     },
 
-    'constructor': {
-        'ua': 'Конструктор турів',
-        'en': 'Constructor of tours',
+    'btn': {
+        'ua': 'Замовити',
+        'en': 'Buy now',
     },
-
-    'constructortitle': {
-        'ua': 'Створи свою найкращу подорож',
-        'en': 'Create your best trip',
-    }
 
 }
